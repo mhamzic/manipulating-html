@@ -1,0 +1,13 @@
+button {
+  display: block;
+}
+
+#div-1 {
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+}
+
+#second-div {
+  margin-top: 3em;
+}

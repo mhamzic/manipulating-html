@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.js"
+      integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+
+    <title>Manipulating HTML JQuery</title>
+  </head>
+  <body>
+    <div>
+      <button id="button-1" style="margin-bottom:2em"></button>
+    </div>
+    <div>
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        style="margin-bottom:2em"
+        placeholder="Enter some text here and click button below..."
+      ></textarea>
+      <button id="button-2" style="margin-bottom:2em"></button>
+    </div>
+    <div id="div-1">Change color on hover...</div>
+    <div id="with-text">
+      <p>
+        This paragraph change color on click. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Voluptates tenetur cumque eum aut ipsum ea nobis qui temporibus
+        vel nemo, laborum iusto dolore ipsa ad molestias cupiditate. Accusantium, et
+        magnam.
+      </p>
+    </div>
+    <div id="with-span">
+      <button id="button-3" style="display: block;">Add span</button>
+    </div>
+    <div id="with-ul">
+      <button id="button-4" style="display:block; margin-top:2em">
+        Add Friend from Array
+      </button>
+      <ul></ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
